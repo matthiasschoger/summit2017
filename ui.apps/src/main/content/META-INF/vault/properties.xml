@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>FileVault Package Properties</comment>
+<entry key="buildCount">1</entry>
+<entry key="version">6.3.0</entry>
+<entry key="dependencies" />
+<entry key="packageFormatVersion">2</entry>
+<entry key="description">L3845 - Get started developing with Adobe Experience Manager Content Package</entry>
+<entry key="group">L3845</entry>
+<entry key="name">L3845</entry>
+<entry key="path">/etc/packages/L3845/L3845-0.0.1-SNAPSHOT.zip</entry>
+</properties>

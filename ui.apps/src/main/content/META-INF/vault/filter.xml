@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/L3845"/>
+
+    <filter root="/conf/L3845" mode="merge"/>
+
+
+    <filter root="/etc/clientlibs/L3845"/>
+
+
+    <filter root="/etc/designs/l3845">
+        <include pattern="/etc/designs/l3845/jcr:content"/>
+    </filter>
+
+</workspaceFilter>
