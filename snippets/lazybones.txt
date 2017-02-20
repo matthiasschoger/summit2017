@@ -1,0 +1,17 @@
+Maven group ID for the generated project [com.myco]: com.adobe.summit2017
+Maven artifact ID for the generated reactor project [example-project]: L3845
+Maven artifact ID for the generated bundle project [L3845.core]: L3845.core
+Maven artifact ID for the generated content package project [L3845.ui.apps]: L3845.ui.apps
+Maven version for generated project [0.0.1-SNAPSHOT]: 0.0.1-SNAPSHOT
+Human readable project name [My AEM Project]: L3845 - Get started developing with Adobe Experience Manager
+Group name for Content Package [my-packages]: L3845
+Folder name under /apps for components and templates [l3845---get-started-developing-with-adobe-experience-manager]: L3845
+Folder name under /content which will contain your site [l3845---get-started-developing-with-adobe-experience-manager] (Don't worry, you can always add more, this is just for some default configuration.): L3845
+Would you like to create AEM 6.2 Editable Templates folders? [yes]: yes
+Folder name under /conf for editable templates [l3845---get-started-developing-with-adobe-experience-manager]: L3845
+Create a site design (under /etc/designs)? [yes]: yes
+Folder name under /etc/designs which will contain your design settings [l3845---get-started-developing-with-adobe-experience-manager] (Don't worry, you can always add more, this is just for some default configuration.): L3845
+Do you want to create 'main' client library (at /etc/clientlibs/L3845/main having the category L3845.main)? [yes]: yes
+Do you want to create 'dependencies' client library (at /etc/clientlibs/L3845/dependencies having the category L3845.dependencies)? [yes]: no
+Will you be using Sling Models? [yes]: yes
+What package will contain your Sling Models?: com.adobe.summit2017.l3845.models
