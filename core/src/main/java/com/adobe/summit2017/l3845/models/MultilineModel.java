@@ -1,6 +1,5 @@
 package com.adobe.summit2017.l3845.models;
 
-import java.util.Collections;
 import java.util.List;
 
 import javax.inject.Inject;
@@ -15,7 +14,9 @@ public class MultilineModel {
 	@Inject @Optional
 	private List<String> lines;
 	
-	public List<String> getLines() {
-		return lines != null ? lines : Collections.<String>emptyList();
+	public float getCalculation() {
+		float numLines = lines.size();
+		
+		return numLines / (numLines - 5) * -1; // will throw ArithmeticException (divide by zero)
 	}
 }
