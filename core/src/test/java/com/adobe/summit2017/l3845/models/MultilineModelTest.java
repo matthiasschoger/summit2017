@@ -21,12 +21,4 @@ public class MultilineModelTest {
 
 	}
 
-	@Test(expected=NullPointerException.class)
-	public void testGetCalculationNPE() throws NoSuchFieldException {
-
-		PrivateAccessor.setField(model, "lines", null);
-		model.getNumLines();
-
-	}
-
 }

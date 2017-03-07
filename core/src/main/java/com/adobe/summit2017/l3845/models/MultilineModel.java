@@ -13,6 +13,6 @@ public class MultilineModel {
 	private String[] lines;
 	
 	public int getNumLines() { 
-		return lines.length; // will throw NPE if 'lines' is not initialized
+		return lines.length;
 	}
 }
