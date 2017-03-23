@@ -2,6 +2,7 @@
 
 <h3>Summit 2017 L3845 Multiline Component, please add some lines</h3>
 <p class="${text.cssClass}" data-emptytext="Text">${properties.text}</p>
-<ul data-sly-list.line="${model.lines}">
+<ul data-sly-list.line="${properties.lines}">
   <li>${line}</li>
 </ul>
+<p>Number of Lines: ${model.numLines}</p>
